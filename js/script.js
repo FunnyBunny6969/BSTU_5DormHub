@@ -50,7 +50,6 @@ const animateOnScroll = new IntersectionObserver((entries, observer) => {
 }, observerOptions);
 
 document.addEventListener('DOMContentLoaded', function() {
-    updateTimestamp();
     
     // Инициализация анимаций для сервисов
     const serviceItems = document.querySelectorAll('.service-item');
