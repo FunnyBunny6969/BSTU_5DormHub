@@ -1,10 +1,3 @@
-// Функция для обновления временной метки
-function updateTimestamp() {
-    const timestamp = document.getElementById('timestamp');
-    const date = new Date();
-    timestamp.setAttribute('title', `Последнее обновление: ${date.toLocaleDateString()} ${date.toLocaleTimeString()}`);
-}
-
 // Переключатель тёмной темы
 const themeSwitch = document.getElementById('checkbox');
 if (themeSwitch) {
